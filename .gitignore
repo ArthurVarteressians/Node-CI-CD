@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+
+# Tests
+coverage/
