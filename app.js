@@ -4,7 +4,7 @@ require('dotenv').config();
 function createApp() {
   const app = express();
   app.get('/', (req, res) => {
-    res.status(200).send('Hello CI/CD Pipeline!');
+    res.status(200).send('Hello CI/CD Pipeline. It test!');
   });
   return app;
 }
