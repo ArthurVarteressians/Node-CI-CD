@@ -26,6 +26,6 @@ describe('Express App', () => {
 
     app(mockReq, mockRes);
     expect(mockRes._status).toBe(200);
-    expect(mockRes._body).toBe('Hello CI/CD Pipeline! It test!');
+    expect(mockRes._body).toBe('Hello CI/CD Pipeline. It test!');
   });
 });
